@@ -1,3 +1,52 @@
 #container {
   background-color : rgb(209, 30, 60);
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin : 20 px;
+  padding : 10px;
+  border: 1px solid black;
+  box-sizing: border-box; /* Add this line */
+
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+
+}
+
+.anime-card {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+
+}
+.nav-items > ul {
+
+  list-style-type: none;
+  display: flex;
+
+}
+
+.item-image {
+  width: 100%
+}
+
+.nav-items > ul > li {
+  padding : 5px;
+}
+
+.logo img {
+  width: 100px; /* Adj */
+  height: auto; /* Maintain aspect ratio */
+}

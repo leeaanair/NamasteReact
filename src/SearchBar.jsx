@@ -1,7 +1,9 @@
-export default function Header() {
+const SearchBar = () => {
     return (
-        <div class name="search-bar" >
+        <div className="search-bar" >
             <input type="text" />
         </div>
     );
   }
+
+export default SearchBar;
